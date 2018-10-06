@@ -1,0 +1,9 @@
+# Configuratiebestand SAP-omgeving
+
+name: 'SAP Server'
+cpus: 2
+memory: 6144              # Minimum 6144
+disksize: 100GB           # Minimum 100GB
+ip-address: 192.168.56.10
+
+sap_password: sap-server

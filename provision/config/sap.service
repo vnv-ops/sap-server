@@ -1,0 +1,10 @@
+[Service]
+User=npladm
+RemainAfterExit=true
+EnvironmentFile=/home/npladm/service-env.sh
+ExecStartPre=/bin/sleep 10
+ExecStart=/usr/sap/NPL/SYS/exe/uc/linuxx86_64/startsap all
+ExecStop=/usr/sap/NPL/SYS/exe/uc/linuxx86_64/stopsap all
+
+[Install]
+WantedBy=multi-user.target
