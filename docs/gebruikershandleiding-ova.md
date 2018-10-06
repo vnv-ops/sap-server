@@ -61,4 +61,4 @@ Vereisten:
 1. Sluit de SAP-client.
 1. Sluit nu de server af. Hiervoor druk je op `ACPI Shutdown`.
 
-![shutdown](img/shutdown.png)
+![Shutdown](img/shutdown.png)
